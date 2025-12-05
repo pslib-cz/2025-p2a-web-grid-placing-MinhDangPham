@@ -39,3 +39,8 @@ h6,
   font-size: 32px;
   background-color: var(--yellow);
 }
+
+.container {
+  grid-template-columns: repeat(5, 1fr 2fr); 
+  grid-template-rows: repeat(10, 50px);
+}
